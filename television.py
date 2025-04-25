@@ -88,6 +88,7 @@ class Television:
 
     def __str__(self)-> str:
         """
-        Returns a string of the television state
+        Method to show the tv status.
+        :return: tv status.
         """
-        return f'Power- {self.__status}, Channel- {self.__channel},Volume- {self.__volume}.'
+        return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}'
